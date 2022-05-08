@@ -22,6 +22,7 @@ import { FooterComponent } from './components/template/footer/footer.component';
 import { NavComponent } from './components/template/nav/nav.component';
 import { HomeComponent } from './components/view/home/home.component';
 import { CategoriaReadComponent } from './components/view/categoria/categoria-read/categoria-read.component';
+import { CategoriaCreateComponent } from './components/view/categoria/categoria-create/categoria-create.component';
 
 @NgModule({
   declarations: [
@@ -31,6 +32,7 @@ import { CategoriaReadComponent } from './components/view/categoria/categoria-re
     FooterComponent,
     NavComponent,
     HomeComponent,
+    CategoriaCreateComponent,
     
   ],
   imports: [
