@@ -10,7 +10,7 @@
 > - validações nos formulários
 > - css
 > - camada de serviço
-> -
+> - dentre outros como Data Binding, reatividade com o Observable.
 
 
 
