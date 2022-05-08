@@ -45,8 +45,6 @@ export class LivroService {
     return this.http.put<void>(url, livro);
   }
 
-  
-
   delete (id: String): Observable<void> {
     const url = `${this.baseUrl}/livros/${id}`;
     return this.http.delete<void>(url);

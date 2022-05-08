@@ -9,6 +9,7 @@ import { CategoriaReadComponent } from './components/view/categoria/categoria-re
 
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { LivroDeleteComponent } from './components/view/livro/livro-delete/livro-delete.component';
 
 const routes: Routes = [
   {path: "home", component: HomeComponent},
@@ -19,6 +20,7 @@ const routes: Routes = [
   {path: 'categorias/:id_cat/livros/:id/read', component: LivroReadComponent},
   {path: 'categorias/:id_cat/livros', component: LivroAllComponent},
   {path: 'categorias/:id_cat/livros/create', component: LivreCreateComponent},
+  {path: 'categorias/:id_cat/livros/:id/delete', component: LivroDeleteComponent},
 
   {path: '', pathMatch: 'full', redirectTo: 'home'},
 ];
